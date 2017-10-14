@@ -1,0 +1,34 @@
+var o9 = prompt('¡Ingresá un día de semana: ', 'Lunes, Martes, Miércoles, Jueves, Viernes, Sábado, Domingo')
+
+switch(o9) {
+	case 'Lunes': 
+	console.log('El día '+ o9+  ' es hábil.')
+	break
+	case 'Martes': 
+	console.log('El día '+ o9+  ' es hábil.')
+	break
+	
+	case 'Miércoles': 
+	console.log('El día '+ o9+  ' es hábil.')
+	break
+	
+	case 'Jueves': 
+	console.log('El día '+ o9+  ' es hábil.')
+	break
+	
+	case 'Viernes': 
+	console.log('El día '+ o9+  ' es hábil.')
+	break
+	
+
+	case 'Sabado': 
+	console.log('El día ' + o9 + ' es fin de semana.')
+	break
+	
+	case 'Domingo': 
+	console.log('El día ' + o9 + ' es fin de semana.')
+	break
+	
+
+
+}
