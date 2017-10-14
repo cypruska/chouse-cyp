@@ -1,0 +1,15 @@
+var v1 = prompt('Dame un número, capo: ')
+var v2 = prompt('Dame otro número, capo: ')
+
+var l1 = parseInt(v1, 10)
+var l2 = parseInt(v2, 10)
+
+var suma = l1 + l2 
+var resta = l1 - l2 
+var multi =  l1 * l2
+var division = l1 / l2
+
+alert('Si sumamos, tenemos este resultado: '+ suma )
+alert('Si restamos, tenemos este resultado: '+ resta )
+alert('Si multiplicamos, tenemos este resultado: '+ multi)
+alert('Si dividimos, tenemos este resultado: '+ division)
